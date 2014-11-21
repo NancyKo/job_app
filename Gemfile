@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'quiet_assets'
 gem 'jbuilder', '~> 2.0'
+gem 'slim'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
