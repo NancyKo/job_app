@@ -1,6 +1,7 @@
 class JobsController < ApplicationController
 
 def index
+	@jobs = Job.all
 end
 
 def new
@@ -8,11 +9,9 @@ def new
 end
 
 def create 
-	p "IN the create METHOD"
 	Job.create(job_params)
-	# render :index
-	p job
 	redirect_to jobs_path
+	# render :index
 end 
 
 private 
