@@ -14,6 +14,9 @@ def create
 	# render :index
 end 
 
+def edit
+end
+
 private 
 
 def job_params
