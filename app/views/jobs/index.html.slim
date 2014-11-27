@@ -4,9 +4,10 @@ table.table
 	thead 
 		th Title
 		th
-		th Description 
+		th Description  
 	-@jobs.each do |job|
 		tr
 			td=job.title
 			td
 			td=job.description
+			td=link_to 'Edit', edit_job_path(job)
